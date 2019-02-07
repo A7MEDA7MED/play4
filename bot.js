@@ -21,6 +21,23 @@ const gif = require("gif-search");
 const client = new Discord.Client({disableEveryone: true});
 
 const prefix = "4";
+
+
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`); //هنا تسجيل بسيط بالكونسل
+  client.user.setStatus('idle')// هنا التغيير 
+});
+
+
+client.on('ready', () => {
+    console.log(`${client.user.tag} Is idle !`) 
+    client.user.setGame(`Royal Legend Clan . 4help`)
+});
+
+
+
+
 /////////////////////////
 ////////////////////////
 

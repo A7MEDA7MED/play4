@@ -32,7 +32,7 @@ client.on('ready', () => {
 
 client.on('ready', () => {
     console.log(`${client.user.tag} Is idle !`) 
-    client.user.setGame(`Royal Legend Clan . 4help`)
+    client.user.setGame(`ʀʟ㴀AL JINEيبن الشرموطا يا  Royal Legend Clan . 4help`)
 });
 
 
